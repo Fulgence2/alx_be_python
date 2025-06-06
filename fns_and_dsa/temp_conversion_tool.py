@@ -18,4 +18,4 @@ match unit:
         result = convert_to_celsius(temperature)
         print(f"{temperature}°F is {result}°C")
     case _:
-        print("Invalid unit, please try again")
+        print("Invalid temperature. Please enter a numeric value.")
