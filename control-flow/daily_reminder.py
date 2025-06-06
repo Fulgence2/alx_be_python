@@ -14,8 +14,6 @@ match priority:
         exit()
     
 if time_bound == "yes":
-    reminder ="Reminder: " + message + " that requires immediate attention today!"
+    print(f"Reminder: " + message + " that requires immediate attention today!")
 else:
-    reminder ="Note: " + message + ". Consider completing it when you have free time."
-
-print(reminder)
+    print(f"Note: " + message + ". Consider completing it when you have free time.")
