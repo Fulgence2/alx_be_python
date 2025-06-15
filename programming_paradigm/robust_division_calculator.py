@@ -23,5 +23,4 @@ def safe_divide(numerator, denominator):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
         return
-    return float(numerator) / float(denominator)
 # This function can be used in a command-line interface or imported into other Python scripts.
