@@ -10,17 +10,13 @@ def safe_divide(numerator, denominator):
         float: The result of the division or None if an error occurs.
     """
     try:
-        print(f"The result of the division is {float(numerator) / float(denominator)}")
+        return (f"The result of the division is {float(numerator) / float(denominator)}")
     except ZeroDivisionError:
-        print("Error: Cannot divide by zero. Please provide a non-zero denominator.")
-        return
+        return("Error: Cannot divide by zero. Please provide a non-zero denominator.")
     except TypeError:
-        print("Error: Both numerator and denominator must be numbers.")
-        return
+        return("Error: Both numerator and denominator must be numbers.")
     except ValueError:
-        print("Error: Please enter numeric values only.")
-        return
+        return("Error: Please enter numeric values only.")
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
-        return
+        return(f"An unexpected error occurred: {e}")
 # This function can be used in a command-line interface or imported into other Python scripts.
