@@ -3,7 +3,7 @@ class Book:
         self.title = title
         self.author = author
         self.checked_out = False
-        self.books = []
+        self._books = []
 
     def __str__(self):
         return f"{self.title} by {self.author}"
@@ -24,7 +24,7 @@ class Book:
         return False
 class Library:
     def __init__(self):
-        self.books = []
+        self._books = []
 
     def add_book(self, book):
         self.books.append(book)
