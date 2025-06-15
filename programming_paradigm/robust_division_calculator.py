@@ -12,7 +12,7 @@ def safe_divide(numerator, denominator):
     try:
         print(f"The result of the division is {float(numerator) / float(denominator)}")
     except ZeroDivisionError:
-        print("Error: Division by zero is not allowed.")
+        print("Error: Cannot divide by zero. Please provide a non-zero denominator.")
         return
     except TypeError:
         print("Error: Both numerator and denominator must be numbers.")
