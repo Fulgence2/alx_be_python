@@ -19,4 +19,4 @@ class BankAccount:
         return self.account_balance
 
     def __str__(self):
-        return f"Account {self.account_number}: Balance {self.account_balance}"
+        return f"Account {self.account_number}: Current Balance: {self.account_balance}"
