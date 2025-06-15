@@ -24,7 +24,7 @@ def main():
         elif choice == '2':
             amount = float(input("Enter withdrawal amount: "))
             if account.withdraw(amount):
-                print("Withdrawal successful.")
+                print(f"Withdrew: ${amount}")
             else:
                 print("Withdrawal failed. Check your balance or amount.")
         
