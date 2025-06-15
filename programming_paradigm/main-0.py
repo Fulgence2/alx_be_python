@@ -17,7 +17,7 @@ def main():
         if choice == '1':
             amount = float(input("Enter deposit amount: "))
             if account.deposit(amount):
-                print("Deposit successful.")
+                print(f"Deposited: ${amount}")
             else:
                 print("Deposit failed. Amount must be positive.")
         
