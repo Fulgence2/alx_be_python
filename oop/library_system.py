@@ -3,7 +3,7 @@ class Book:
         self.title = title
         self.author = author
     def __str__(self):
-        return f"{self.title} by {self.author}"
+        return f"Book:{self.title} by {self.author}"
 
 
 class EBook(Book):
