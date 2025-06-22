@@ -1,4 +1,4 @@
-from book_class import Book
+from oop.book_class import Book
 
 def main():
     # Creating an instance of Book
