@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14c25702-361a-4e9c-b110-a447a74a4616" name="Changes" comment="Mastering Inheritance and Composition in Python">
-      <change afterPath="$PROJECT_DIR$/oop/class_static_methods_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/main-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/main.py" afterDir="false" />
+    <list default="true" id="14c25702-361a-4e9c-b110-a447a74a4616" name="Changes" comment="Mastering Inheritance and Composition in Python&#10;Distinguishing Between Class Methods and Static Methods">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library_management_system/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="SQL File" />
       </list>
     </option>
   </component>
@@ -29,22 +31,25 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "assignee": "Fulgence2"
+      &quot;assignee&quot;: &quot;Fulgence2&quot;
     }
   ],
-  "lastFilter": {
-    "assignee": "Fulgence2"
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;Fulgence2&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Fulgence2/alx_be_python.git",
-    "accountId": "371d2dea-332a-4a5c-b8cf-875a3c9e6cfb"
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="371d2dea-332a-4a5c-b8cf-875a3c9e6cfb" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fulgence2/alx_be_python.git&quot;,
+    &quot;accountId&quot;: &quot;371d2dea-332a-4a5c-b8cf-875a3c9e6cfb&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -59,6 +64,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.class_static_methods_demo.executor": "Run",
     "Python.library_system.executor": "Run",
     "Python.main-1.executor": "Run",
     "Python.main.executor": "Run",
@@ -72,11 +78,18 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/oop" />
     </key>
   </component>
@@ -98,7 +111,8 @@
       <workItem from="1750611693946" duration="1146000" />
       <workItem from="1750612850534" duration="35000" />
       <workItem from="1750612907765" duration="122000" />
-      <workItem from="1750613253634" duration="2795000" />
+      <workItem from="1750613253634" duration="3200000" />
+      <workItem from="1751179221984" duration="8486000" />
     </task>
     <task id="LOCAL-00001" summary="Mastering Inheritance and Composition in Python">
       <option name="closed" value="true" />
@@ -140,19 +154,50 @@
       <option name="project" value="LOCAL" />
       <updated>1750618694977</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mastering Inheritance and Composition in Python&#10;Distinguishing Between Class Methods and Static Methods">
+      <option name="closed" value="true" />
+      <created>1750618942690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750618942690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="526dda20-28dd-45e4-be22-5e56aad87146" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="526dda20-28dd-45e4-be22-5e56aad87146">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mastering Inheritance and Composition in Python" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mastering Inheritance and Composition in Python" />
+    <MESSAGE value="Mastering Inheritance and Composition in Python&#10;Distinguishing Between Class Methods and Static Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mastering Inheritance and Composition in Python&#10;Distinguishing Between Class Methods and Static Methods" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/alx_backend_python$main.coverage" NAME="main Coverage Results" MODIFIED="1750618672173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
+    <SUITE FILE_PATH="coverage/alx_backend_python$main.coverage" NAME="main Coverage Results" MODIFIED="1751185069900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/library_management_system" />
     <SUITE FILE_PATH="coverage/alx_backend_python$main_1.coverage" NAME="main-1 Coverage Results" MODIFIED="1750614011748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
+    <SUITE FILE_PATH="coverage/alx_backend_python$class_static_methods_demo.coverage" NAME="class_static_methods_demo Coverage Results" MODIFIED="1750618931080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/oop$main.coverage" NAME="main Coverage Results" MODIFIED="1750611900715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/alx_backend_python$library_system.coverage" NAME="library_system Coverage Results" MODIFIED="1750614134853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
   </component>
